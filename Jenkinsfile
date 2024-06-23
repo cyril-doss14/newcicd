@@ -31,7 +31,7 @@ post{
             catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
             mail  to: "cyrilrodriguez007@gmail.com",
                   subject: "Notification mail from Jenkins",
-                  body: "CI/CD pipeline completed successfully.\n\nCheck the application"
+                  body: "Change has been made in the application.\n\nCheck the application"
                 
                 
         }
